@@ -1,0 +1,91 @@
+.cajun{
+    background-color: #ffc260;
+    text-align: center;
+    color: crimson;
+    font-family: "Courier New", cursive, sans-serif
+}
+
+.border1{
+    border: groove #ff9d00 10px;   
+    height: fit-content;
+    width: 150;
+    margin: 5px, 20px, 10px, 20px;
+}
+
+.p-paddings{
+    display: block;
+    padding: 5px;
+}
+
+.corn{
+    background-color: cornsilk;
+    text-align: center;
+    color: #c19d00;
+    font-family: "Courier New", Verdana, sans-serif;
+}
+
+
+.cornborder{
+    border:groove #ffe05a 10px;
+    height: fit-content;
+    width: 100;
+    margin: 5px, 20px, 10px, 20px;
+}
+
+.chicken{
+    background-color: azure;
+    text-align: center;
+    color: darkgreen;
+    font-family: "Courier New", "Times New Roman", sans-serif;
+}
+
+.desc{
+    color: crimson;
+}
+
+.desc2{
+    color:darkgreen
+}
+
+.desc3{
+    color: darkred;
+}
+
+.chickenborder {
+    border: groove #8ec6ff 10px;
+    height: fit-content;
+    width: 175;
+    margin: 5px, 20px, 10px, 20px;
+}
+
+/*
+.cajuntitle{
+    font-family: "Sofia", sans-serif;
+    font-size: 30px;
+    effect: font-effect-fire ;
+}
+*/
+
+li{
+   list-style-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="%23808"><path d="M18 4c-4-1-6 3-6 3s-2-4-6-3-4 6-2 8l8 8 8-8c2-2 2-7-2-8z"></path></svg>');
+}
+
+li::marker{
+   font-size: 1.8em;
+   line-height: 0.1;
+}
+
+/*i got the heart code from: https://www.svgbackgrounds.com/custom-css-bullets-with-marker/#:~:text=This%20first%20way%20tool%20to,to%20the%20element.*/
+
+.index{
+    background-color: #f6e7ff;
+    font-family: "Courier New"
+}
+
+#recipes{
+    color: #81a9f0;
+}
+
+a:link {
+  color: hotpink;
+}
